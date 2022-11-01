@@ -1,3 +1,21 @@
-h1 {
-    color: greenyellow;
+body {
+    color: gray;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 606px;
+    height: 606px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: solid black 1px;
+}
+
+.mole {
+    color: blue;
+    background-size: cover;
 }
