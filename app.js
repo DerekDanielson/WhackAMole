@@ -14,7 +14,7 @@ function randomSquare() {
     })
 
     let randomSquare = squares[Math.floor(Math.random() * 9)]
-    randomSquare.classList.add('.mole')
+    randomSquare.classList.add('mole')
 }
 
 randomSquare()
