@@ -1,5 +1,14 @@
 body {
-    color: gray;
+    background-color: rgb(126, 77, 77);
+}
+
+h1 {
+    padding-left: 42%;
+    font-size: 45px;
+}
+
+#scoreboard {
+    padding-left: 20%;
 }
 
 .grid {
@@ -7,14 +16,17 @@ body {
     flex-wrap: wrap;
     width: 606px;
     height: 606px;
+    padding-left: 35%;
 }
 
 .square {
     width: 200px;
     height: 200px;
+    background-color: rgb(126, 77, 77);
     border: solid black 1px;
 }
 
 .mole {
-    background-color: blue;
+    background-image: url('mole.jpg');
+    background-size: cover;
 }
