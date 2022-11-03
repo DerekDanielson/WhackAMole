@@ -1,5 +1,3 @@
-//MAKE SQUARES GREEN AND PINK AND ON EVERY CLICK CHANGE SQUARE COLOR
-
 const squares = document.querySelectorAll('.square')
 const mole = document.querySelector('.mole')
 const timeLeft = document.querySelector('#time-left')
